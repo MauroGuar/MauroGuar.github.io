@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Ingresar Código - Amigo Invisible</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+    <!-- Lightrope (Guirnalda de luces) -->
+    <ul class="lightrope">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <main class="card-container">
+        <!-- SVG Estrella -->
+        <svg class="decoration-icon" viewBox="0 0 24 24" style="fill: var(--color-gold);">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+        </svg>
+
+        <h1>Identificación</h1>
+        <p>Ingresa tu llave personal de 10 dígitos para descubrir a tu amigo invisible.</p>
+
+        <div class="form-group">
+            <!-- INPUT para el código -->
+            <input type="text" id="userCode" class="code-input" placeholder="A1B2C3D4E5" maxlength="10"
+                autocomplete="off">
+        </div>
+
+        <button id="btnNext" class="btn">Siguiente</button>
+
+        <button onclick="window.location.href='index.html'" class="btn-secondary">Volver al inicio</button>
+    </main>
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>

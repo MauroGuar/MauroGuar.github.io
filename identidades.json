@@ -1,0 +1,32 @@
+[
+    {
+        "nombre": "Coti",
+        "codigo": "DXGQ9BW27N",
+        "amigo": "Nahuel"
+    },
+    {
+        "nombre": "Jime",
+        "codigo": "ATL14KDENR",
+        "amigo": "Coti"
+    },
+    {
+        "nombre": "Julia",
+        "codigo": "37INH0Q4DT",
+        "amigo": "Vita"
+    },
+    {
+        "nombre": "Mauro",
+        "codigo": "4R9VL1ADEX",
+        "amigo": "Jime"
+    },
+    {
+        "nombre": "Nahuel",
+        "codigo": "78APMGTRBS",
+        "amigo": "Mauro"
+    },
+    {
+        "nombre": "Vita",
+        "codigo": "IBT2C1RFHU",
+        "amigo": "Julia"
+    }
+]
